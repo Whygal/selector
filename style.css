@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+input.input-field {
+    display: flex;
+    flex-direction: column ;
+align-items:center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.fruit{
+    width: 50%;
+    margin: 10px;
+    color: blueviolet;
+    box-shadow: 3px 3px rgba(220, 220, 220, 0);
+}
+p{
+    margin: 1;
+}
+div.fruitsContainer{
+    display: flex;
+    flex-direction: column ;
+align-items:center;
+}
